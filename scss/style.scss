@@ -1223,10 +1223,15 @@ textarea.form-control {
 		box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.15), 0 8px 16px -4px rgba(0, 0, 0, 0.06);
 	}
 
+	@include media-breakpoint-up(lg) {
+		height: 515px;
+	}
+
 	.image, .text {
 		width: 100%;
 		@include media-breakpoint-up(lg) {
-			width: 50%;	
+			width: 50%;
+			height: 100%;
 		}
 	}
 	.image {
@@ -1248,8 +1253,8 @@ textarea.form-control {
 		}
 		@include media-breakpoint-up(lg) {
 			align-self: stretch;
-			min-height: 440px;
-			height: auto;
+			min-height: 515px;
+			height: 100%;
 			position: relative;
 			a {
 				position: absolute;
@@ -1304,7 +1309,8 @@ textarea.form-control {
 		flex-direction: column;
 		justify-content: center;
 		@include media-breakpoint-up(lg) {
-			padding: 2rem 2.5rem;	
+			height: 100%;
+			padding: 1.8rem 2.5rem;	
 		}
 		.project-logo {
 			text-align: left;

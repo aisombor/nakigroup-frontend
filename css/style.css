@@ -1582,8 +1582,11 @@ textarea.form-control {
 .site-block-half .image, .site-block-half .text {
   width: 100%; }
   @media (min-width: 992px) {
+    .site-block-half {
+      height: 515px; }
     .site-block-half .image, .site-block-half .text {
-      width: 50%; } }
+      width: 50%;
+      height: 100%; } }
 
 .site-block-half .image {
   position: relative;
@@ -1609,8 +1612,8 @@ textarea.form-control {
   @media (min-width: 992px) {
     .site-block-half .image {
       align-self: stretch;
-      min-height: 440px;
-      height: auto;
+      min-height: 515px;
+      height: 100%;
       position: relative; }
     .site-block-half .image a {
       position: absolute;
@@ -1657,7 +1660,8 @@ textarea.form-control {
   justify-content: center; }
   @media (min-width: 992px) {
     .site-block-half .text {
-      padding: 2rem 2.5rem; } }
+      height: 100%;
+      padding: 1.8rem 2.5rem; } }
   .site-block-half .text .project-logo {
     display: flex;
     justify-content: center;
