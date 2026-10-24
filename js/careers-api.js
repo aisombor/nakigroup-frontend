@@ -6,10 +6,9 @@
 (function () {
   'use strict';
 
-  // Auto-detect localhost vs production (Render.com)
+  // Auto-detect localhost vs production
   const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
-  const PRODUCTION_API_URL = 'https://nakigroup-backend.onrender.com/api';
-  const API_BASE_URL = isLocal ? 'http://localhost:5000/api' : PRODUCTION_API_URL;
+  const API_BASE_URL = isLocal ? 'http://localhost:5000/api' : '/api';
   let cachedJobs = [];
 
   // DOM Elements
