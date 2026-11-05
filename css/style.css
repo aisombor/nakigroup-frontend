@@ -2934,6 +2934,28 @@ textarea.form-control {
   z-index: 2;
 }
 
+.btn-project-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  background-color: #0a3b61;
+  color: #ffffff !important;
+  border-radius: 8px !important;
+  font-size: 18px;
+  text-decoration: none !important;
+  transition: all 0.25s ease;
+  box-shadow: 0 2px 6px rgba(10, 59, 97, 0.25);
+}
+
+.btn-project-icon:hover {
+  background-color: #072a45;
+  color: #ffffff !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(10, 59, 97, 0.4);
+}
+
 .project-details-wrap {
   padding: 40px 35px;
 }
