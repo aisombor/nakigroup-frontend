@@ -2009,7 +2009,7 @@ textarea.form-control {
 
 /* Leader Bio Button & Modal Styles */
 .btn-read-bio {
-  background: linear-gradient(135deg, #CEA277, #b88a5d);
+  background: #0a3b61 !important;
   color: #ffffff !important;
   border: none;
   font-size: 11px;
@@ -2017,7 +2017,7 @@ textarea.form-control {
   letter-spacing: 0.8px;
   text-transform: uppercase;
   padding: 8px 18px;
-  border-radius: 25px;
+  border-radius: 8px !important;
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
   display: inline-flex;
@@ -2026,9 +2026,9 @@ textarea.form-control {
   z-index: 5;
   position: relative; }
   .btn-read-bio:hover, .btn-read-bio:focus, .btn-read-bio:active {
-    background: linear-gradient(135deg, #dfb489, #CEA277);
+    background: #072a45 !important;
     transform: translateY(-2px);
-    box-shadow: 0 6px 18px rgba(206, 162, 119, 0.45);
+    box-shadow: 0 6px 18px rgba(10, 59, 97, 0.45);
     color: #ffffff !important; }
 
 @media (max-width: 991.98px) {
@@ -2123,9 +2123,9 @@ textarea.form-control {
   padding: 12px 24px;
   background: #f8fafc; }
 .leader-bio-modal .btn-close-modal {
-  background: #003764;
+  background: #0a3b61;
   color: #ffffff;
-  border-radius: 20px;
+  border-radius: 8px !important;
   padding: 7px 22px;
   font-size: 12px;
   font-weight: 600;
@@ -2135,7 +2135,7 @@ textarea.form-control {
   transition: all 0.2s ease;
   cursor: pointer; }
   .leader-bio-modal .btn-close-modal:hover {
-    background: #CEA277;
+    background: #072a45;
     color: #ffffff; }
 
 .check-availabilty {
