@@ -55,12 +55,42 @@ h1, h2, h3, h4, h5 {
     border: 2px solid #fff; }
     .btn.btn-outline-white-primary:hover {
       border: 2px solid transparent;
-      background: #ffba5a;
+      background: #0a3b61;
       color: #fff; }
   .btn.uppercase {
     text-transform: uppercase;
     font-size: 14px;
     letter-spacing: .2em; }
+
+/* Primary Button Styling - Brand color #0a3b61 */
+.btn-primary {
+  background-color: #0a3b61 !important;
+  border-color: #0a3b61 !important;
+  color: #ffffff !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:not(:disabled):not(.disabled):active {
+  background-color: #072a45 !important;
+  border-color: #072a45 !important;
+  color: #ffffff !important;
+}
+
+.btn-outline-primary {
+  color: #0a3b61 !important;
+  border-color: #0a3b61 !important;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active,
+.btn-outline-primary:not(:disabled):not(.disabled):active {
+  background-color: #0a3b61 !important;
+  border-color: #0a3b61 !important;
+  color: #ffffff !important;
+}
 
 .btn, .form-control {
   outline: none;
@@ -3458,15 +3488,15 @@ textarea.form-control {
   border-radius: 30px;
   padding: 13px 30px;
   font-weight: 700;
-  background: #e59934;
-  border-color: #e59934;
+  background: #0a3b61;
+  border-color: #0a3b61;
   color: #ffffff;
   transition: all 0.3s ease;
 }
 
 .press-subscribe-form .btn:hover {
-  background: #cc8325;
-  border-color: #cc8325;
+  background: #072a45;
+  border-color: #072a45;
 }
 
 /* Responsive adjustments for Press page */
@@ -3669,7 +3699,7 @@ textarea.form-control {
   flex-grow: 1;
 }
 .btn-press-readmore {
-  background-color: #14325a;
+  background-color: #0a3b61;
   color: #ffffff !important;
   font-size: 14px;
   font-weight: 600;
@@ -3683,7 +3713,7 @@ textarea.form-control {
   cursor: pointer;
 }
 .btn-press-readmore:hover {
-  background-color: #0d213c;
+  background-color: #072a45;
   transform: translateY(-1px);
 }
 .press-modal-header {
