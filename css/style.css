@@ -44,15 +44,17 @@ h1, h2, h3, h4, h5 {
   padding-right: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
-  border-radius: 50px; }
+  border-radius: 8px !important; }
   .btn.btn-outline-white {
-    border: 2px solid #fff; }
+    border: 2px solid #fff;
+    border-radius: 8px !important; }
     .btn.btn-outline-white:hover {
       border: 2px solid transparent;
       background: #000;
       color: #fff; }
   .btn.btn-outline-white-primary {
-    border: 2px solid #fff; }
+    border: 2px solid #fff;
+    border-radius: 8px !important; }
     .btn.btn-outline-white-primary:hover {
       border: 2px solid transparent;
       background: #0a3b61;
@@ -62,11 +64,12 @@ h1, h2, h3, h4, h5 {
     font-size: 14px;
     letter-spacing: .2em; }
 
-/* Primary Button Styling - Brand color #0a3b61 */
+/* Primary Button Styling - Brand color #0a3b61 & border-radius 8px */
 .btn-primary {
   background-color: #0a3b61 !important;
   border-color: #0a3b61 !important;
   color: #ffffff !important;
+  border-radius: 8px !important;
 }
 
 .btn-primary:hover,
@@ -81,6 +84,7 @@ h1, h2, h3, h4, h5 {
 .btn-outline-primary {
   color: #0a3b61 !important;
   border-color: #0a3b61 !important;
+  border-radius: 8px !important;
 }
 
 .btn-outline-primary:hover,
@@ -2635,7 +2639,7 @@ textarea.form-control {
   white-space: nowrap;
   padding: 10px 24px;
   font-weight: 600;
-  border-radius: 6px;
+  border-radius: 8px !important;
 }
 
 /* How to Apply Section */
@@ -3485,7 +3489,7 @@ textarea.form-control {
 }
 
 .press-subscribe-form .btn {
-  border-radius: 30px;
+  border-radius: 8px !important;
   padding: 13px 30px;
   font-weight: 700;
   background: #0a3b61;
@@ -3704,7 +3708,7 @@ textarea.form-control {
   font-size: 14px;
   font-weight: 600;
   padding: 9px 24px;
-  border-radius: 6px;
+  border-radius: 8px !important;
   border: none;
   display: inline-block;
   align-self: flex-start;
